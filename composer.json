@@ -1,0 +1,23 @@
+{
+    "name": "maowenfu/form-generation",
+    "description": "适用于thinkphp6.0的表单数据生成扩展",
+    "keywords": ["thinkphp", "form-generation"],
+    "license": "Apache-2.0",
+    "type": "library",
+    "authors": [
+        {
+            "name": "maowenfu",
+            "email": "357554469@qq.com"
+        }
+    ],
+    "require": {
+    	"php": ">=7.1.0",
+        "topthink/framework": "^6.0",
+        "topthink/think-view": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FormBuilder\\": "src/"
+        }
+    }
+}
